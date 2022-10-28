@@ -1,0 +1,136 @@
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.548),rgba(255, 255, 255, 0.548)) , url(https://c4.wallpaperflare.com/wallpaper/943/323/774/animals-4k-background-wallpaper-preview.jpg); background-size: cover; background-attachment: fixed;
+
+}
+
+.threeImageGrid{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#ourServices{
+    width: 300px;
+    height: 300px;
+    border: 10px solid goldenrod;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+
+}
+
+#aboutUs{
+    width: 300px;
+    height: 300px;
+    border: 10px solid goldenrod;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactUs{
+    width: 300px;
+    height: 300px;
+    border: 10px solid goldenrod;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+#biljac{
+    width: 175px;
+    height: 175px;
+    border: 5px solid orangered;
+    border-radius: 50%;
+}
+
+#visionary{
+    width: 175px;
+    height: 175px;
+    border: 5px solid orangered;
+    border-radius: 50%;
+}
+
+#hills{
+    width: 175px;
+    height: 175px;
+    border: 5px solid orangered;
+    border-radius: 50%;
+}
+#blueBuffalo{
+    width: 175px;
+    height: 175px;
+    border: 5px solid orangered;
+    border-radius: 50%;
+}
+#naturalBalance{
+    width: 175px;
+    height: 175px;
+    border: 5px solid orangered;
+    border-radius: 50%;
+}
+#iams{
+    width: 175px;
+    height: 175px;
+    border: 5px solid rgb(219, 49, 77);
+    border-radius: 50%;
+}
+
+#ourBrands{
+    text-align: center;
+    font-size: 40px;
+}
+
+.footer{
+    background-color: rgb(219, 49, 77);
+    opacity: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 12%;
+    padding-right: 12%;
+   
+}
+
+
+.footerLinks{
+    color: white;
+    font-size: 16px;
+}
+
+.productImages{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#about-us{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop-online{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#our-services{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social-links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
