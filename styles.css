@@ -1,3 +1,72 @@
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    z-index: 99;
+    /* background-color: rgb(233, 236, 223); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.848),rgba(255, 255, 255, 0.75)), url(https://images.photowall.com/products/49641/fresh-green-grass.jpg?h=699&q=85);
+    background-size: stretch;
+    ;
+    
+}
+
+#headerImgLogo{
+    max-height: 12rem;
+    border-radius: 50%;
+    border: 5px solid rgb(219, 49, 77);
+    margin-left: 40%;
+    margin-top: 1rem;
+   
+}
+
+#storeNameAndSearchBar{
+    margin: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+#searchBox{
+    text-align: center;
+}
+
+#searchButton{
+    border: 2px solid rgb(219, 49, 77);
+}
+
+#searchInput{
+    border: 1px solid rgb(219, 49, 77);
+}
+
+#storeInfo{
+    text-align: right;
+    color: rgb(219, 49, 77);
+    font-weight: 800;
+}
+
+#headerLinks{
+    display: inline-flex;
+;
+}
+
+#storefrontImg{
+    max-height: 15rem;
+    place-items: right;
+    
+}
+
+nav{
+    position: sticky; top: 0;
+    background-color: rgb(219, 49, 77);
+    opacity: 90%;
+    text-align: right;
+    
+}
+
+
+
+
 body{
     background-image: linear-gradient(rgba(255, 255, 255, 0.548),rgba(255, 255, 255, 0.548)) , url(https://c4.wallpaperflare.com/wallpaper/943/323/774/animals-4k-background-wallpaper-preview.jpg); background-size: cover; background-attachment: fixed;
 
@@ -9,24 +78,29 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 10%;
     padding-right: 10%;
+    
+}
+
+.centerText{
+    text-align: center;
 }
 
 
 #ourServices{
     width: 300px;
     height: 300px;
-    border: 10px solid goldenrod;
+    border: 7px solid rgb(219, 49, 77);
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;   
-
+    
 }
 
 #aboutUs{
     width: 300px;
     height: 300px;
-    border: 10px solid goldenrod;
+    border: 7px solid rgb(219, 49, 77);
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -36,7 +110,7 @@ body{
 #contactUs{
     width: 300px;
     height: 300px;
-    border: 10px solid goldenrod;
+    border: 7px solid rgb(219, 49, 77);
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -49,33 +123,33 @@ body{
 #biljac{
     width: 175px;
     height: 175px;
-    border: 5px solid orangered;
+    border: 5px solid rgb(219, 49, 77);
     border-radius: 50%;
 }
 
 #visionary{
     width: 175px;
     height: 175px;
-    border: 5px solid orangered;
+    border: 5px solid rgb(219, 49, 77);
     border-radius: 50%;
 }
 
 #hills{
     width: 175px;
     height: 175px;
-    border: 5px solid orangered;
+    border: 5px solid rgb(219, 49, 77);
     border-radius: 50%;
 }
 #blueBuffalo{
     width: 175px;
     height: 175px;
-    border: 5px solid orangered;
+    border: 5px solid rgb(219, 49, 77);
     border-radius: 50%;
 }
 #naturalBalance{
     width: 175px;
     height: 175px;
-    border: 5px solid orangered;
+    border: 5px solid rgb(219, 49, 77);
     border-radius: 50%;
 }
 #iams{

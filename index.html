@@ -7,213 +7,299 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
     <title>petShopProject</title>
 </head>
 
 <body>
     
-         <!-- BODY -->  
+      
+        <header class="header">
+          <!-- DIV BELOW IS TO PUT AN IMAGE INTO FOR THE LOGO IN THE HEADER-->
+          <div>
+            <img src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/pet-store-logo.jpg" alt="This store's logo" id="headerImgLogo">
+          </div>
+
+
+          <div>
+          <h1 class="centerText" id="storeNameAndSearchBar">The Hounds of Baskerville & Moor</h1>
+          <form id="searchBox" action="/search" method="get">
+          <input type="search" placeholder="Search our products..." id="searchInput">
+          <button type="submit" id="searchButton">
+            Search
+          </button>  
+        </form>
+      </div>
+
+        <div id="storeInfo">
+          <p><br> Store Hours:
+            <br>
+            Monday - Saturday: <br>
+            9:00am - 8:00pm <br>
+            Sunday:
+            10:00am - 6:00pm <br><br>
+            Telephone: <br>
+            (330) 555-5555 <br>
+            yourStoresNameHere@domain.com
+          </p>
+        </div>
+        
+        
+        
+
+          </header>
+
+
+        <nav>
+          <ul id="headerLinks">
+            <li style="padding-right: 3rem;">
+              <a href="#" style="color: white;">Our Services</a>
+            </li>
+            <li style="padding-right: 3rem;">
+              <a href="#" style="color: white;">Shop Online</a>
+            </li>
+            <li style="padding-right: 3rem;">
+              <a href="#" style="color: white;">About Us</a>
+            </li>
+            <li style="padding-right: 3rem;">
+              <a href="#" style="color: white;">Contact Us</a>
+            </li>
+        
+          </ul>
+
+        
+      </nav> 
 
          
+         
+         <br><br><br>
          <!-- SERVICES -->
       <main class="threeImageGrid">
-    
-      <div class="threeImageSect">
-        <a href="#">
-          <img src="https://media.istockphoto.com/vectors/dog-taking-a-bath-vector-id946812044?k=20&m=946812044&s=170667a&w=0&h=uG6gp0XtWUNWTvl_M0txBALuK9Qwr3xS4DyKB6pHPI0="
-            id="ourServices" alt="our services"></a>
-      </div>
       
-      <div class="threeImageSect">
-        <a href="#">
-          <img
-            src="https://cdn.dribbble.com/users/1044993/screenshots/7128384/media/66e4791dd4495e62bf216f466280f574.png?compress=1&resize=300x300"
-            id="aboutUs" alt="about us"></a>
-      </div>
+        <div class="threeImageSect">
+          <a href="#">
+            <img
+              src="https://media.istockphoto.com/vectors/dog-taking-a-bath-vector-id946812044?k=20&m=946812044&s=170667a&w=0&h=uG6gp0XtWUNWTvl_M0txBALuK9Qwr3xS4DyKB6pHPI0="
+              id="ourServices" alt="our services"></a>
+              <p><h2 class="centerText">Our Services</h2></p>
+        </div>
       
-      <div class="threeImageSect">
-        <a href="#">
-          <img
-            src="https://previews.123rf.com/images/jaaakworks/jaaakworks1708/jaaakworks170800122/84921360-cartoon-character-dog-and-big-mobile-phone.jpg"
-            id="contactUs" alt="contact us"></a>
-      </div>
-    </div>
-  
-  </main>
-      <BR></BR><BR></BR><BR></BR>
+        <div class="threeImageSect">
+          <a href="#">
+            <img src="https://cdn.dribbble.com/users/1044993/screenshots/7128384/media/66e4791dd4495e62bf216f466280f574.png?compress=1&resize=300x300"
+              id="aboutUs" alt="about us"></a>
+              <p><h2 class="centerText">Shop Online</h2></p>
+        </div>
+      
+        <div class="threeImageSect">
+          <a href="#">
+            <img src="https://previews.123rf.com/images/jaaakworks/jaaakworks1708/jaaakworks170800122/84921360-cartoon-character-dog-and-big-mobile-phone.jpg"
+              id="contactUs" alt="contact us"></a>
+              <p><h2 class="centerText">About Us</h2></p>
+        </div>
+        </div>
+      
+      </main>
+
+      <BR></BR><BR></BR>
 
       <!-- PRODUCTS/LOGOS -->
 
        <!--THINK ABOUT PUTTING AN ANCHOR TAG W/ target="_blank" ON PRODUCT PICTURES THAT LINK TO EACH COMPANYS WEBSITE-->
 
       <h1 id="ourBrands">Some of our popular brands:</h1>
-        <div class="productImages">
-       <div class="row">
-
-        <div class="containerBrands">
+      <div class="productImages">
+        <div class="row">
+      
+          <div class="containerBrands">
             <div class="row text-center">
-                <div class="col-md-2">
-                  
-                    <img src="https://brandongaille.com/wp-content/uploads/2013/08/Bil-Jac-Company-Logo.jpg" id="biljac" alt="biljac logo">
-                </div>
-
-                <div class="col-md-2">                
-                    <img src="https://images-platform.99static.com//FZnMmtf3yLdA84YcwiLKs-_Kj9U=/0x0:1000x1000/fit-in/500x500/99designs-contests-attachments/101/101690/attachment_101690733" id="visionary" alt="visionary pet food logo">
-                </div>
-
-                 <div class="col-md-2">                    
-                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Hill%27s_Science_Diet_logo.jpg" id="hills" alt="hills logo">
-                </div>
-
-                 <div class="col-md-2">                    
-                    <img src="https://www.hepper.com/wp-content/uploads/2022/08/Blue-Buffalo-Logo-3.png" id="blueBuffalo" alt="Blue-Buffalo-Company-Logo">
-                </div>
-
-                 <div class="col-md-2">                    
-                    <img src="https://www.petlanddunwoody.com/wp-content/uploads/2021/01/Natural-Balance.jpg" id="naturalBalance" alt="natural balance logo">
-                </div>
-
-                 <div class="col-md-2">                    
-                    <img src="https://www.waltham.com/sites/g/files/jydpyr1046/files/2020-06/iamssquarelarge.png" id="iams" alt="iams logo">
-                </div>
-                 
+              <div class="col-md-2">
+      
+                <img src="https://brandongaille.com/wp-content/uploads/2013/08/Bil-Jac-Company-Logo.jpg" id="biljac"
+                  alt="biljac logo">
+              </div>
+      
+              <div class="col-md-2">
+                <img
+                  src="https://images-platform.99static.com//FZnMmtf3yLdA84YcwiLKs-_Kj9U=/0x0:1000x1000/fit-in/500x500/99designs-contests-attachments/101/101690/attachment_101690733"
+                  id="visionary" alt="visionary pet food logo">
+              </div>
+      
+              <div class="col-md-2">
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Hill%27s_Science_Diet_logo.jpg" id="hills"
+                  alt="hills logo">
+              </div>
+      
+              <div class="col-md-2">
+                <img src="https://www.hepper.com/wp-content/uploads/2022/08/Blue-Buffalo-Logo-3.png" id="blueBuffalo"
+                  alt="Blue-Buffalo-Company-Logo">
+              </div>
+      
+              <div class="col-md-2">
+                <img src="https://www.petlanddunwoody.com/wp-content/uploads/2021/01/Natural-Balance.jpg" id="naturalBalance"
+                  alt="natural balance logo">
+              </div>
+      
+              <div class="col-md-2">
+                <img src="https://www.waltham.com/sites/g/files/jydpyr1046/files/2020-06/iamssquarelarge.png" id="iams"
+                  alt="iams logo">
+              </div>
+      
             </div>
+          </div>
         </div>
-    </div>  </div>
+      </div>
     <br><br><br><br>
+
+
+
+
+
+
+
+
     <!---- FOOTER  ------>
-    <footer class="footer" >
-      
-      
+    <footer class="footer">
+    
+    
       <div style="display: flex; justify-items: center;">
         <li class="parent-nav-item site-nav--has-dropdown" id="our-services" aria-haspopup="true">
-          <a href="/pages/about-us" class="site-nav--link parent-nav-link" data-meganav-type="parent" aria-controls="MenuParent-7" aria-expanded="false" tabindex="-1" style="color: white;">
-              About Us
-              <span class="icon icon-arrow-down" aria-hidden="true"></span>
+          <a href="/pages/about-us" class="site-nav--link parent-nav-link" data-meganav-type="parent"
+            aria-controls="MenuParent-7" aria-expanded="false" tabindex="-1" style="color: white;">
+            Our Services
+            <span class="icon icon-arrow-down" aria-hidden="true"></span>
           </a>
           <ul id="MenuParent-7" class="site-nav--dropdown" data-meganav-dropdown="">
-            
-                <li>
-                  <a href="#" tabindex="-1" style="color: white;">
-                      About Us
-                  </a>
-                </li>
-              
-                <li>
-                  <a href="#" tabindex="-1" style="color: white;">
-                      Reviews
-                  </a>
-                </li>
-</div>
-          <li class="parent-nav-item site-nav--has-dropdown" id="shop-online" aria-haspopup="true">
-            <a href="/#" class="site-nav--link parent-nav-link" data-meganav-type="parent" aria-controls="MenuParent-1" aria-expanded="false" style="color: white;">
-                Shop Online
-                <span class="icon icon-arrow-down" aria-hidden="true"></span>
-            </a>
-            <ul id="MenuParent-1" class="site-nav--dropdown" data-meganav-dropdown="">
-              
-                 
-                  <li>
-                    <a href="/collections/cat" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Cat
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="/collections/dog" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Dog
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="/collections/fish" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Fish
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="/collections/reptile" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Reptile
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="/collections/small-animal" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Small Animal
-                    </a>
-                  </li>
-                
-            </ul>
-          </li>
-  
-          <li class="parent-nav-item site-nav--has-dropdown" id="shop-online" aria-haspopup="true">
-            <a href="/#" class="site-nav--link parent-nav-link" data-meganav-type="parent" aria-controls="MenuParent-1" aria-expanded="false" style="color: white;">
-                Shop Online
-                <span class="icon icon-arrow-down" aria-hidden="true"></span>
-            </a>
-            <ul id="MenuParent-1" class="site-nav--dropdown" data-meganav-dropdown="">
-              
-                 
-                  <li>
-                    <a href="/collections/cat" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Cat
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="/collections/dog" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Dog
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="/collections/fish" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Fish
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="/collections/reptile" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Reptile
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="/collections/small-animal" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
-                        Small Animal
-                    </a>
-                  </li>
-                
-            </ul>
-          </li>
-  
-  
-          <li class="parent-nav-item site-nav--has-dropdown" id="social-links" aria-haspopup="true">
-            <a href="/pages/about-us" class="site-nav--link parent-nav-link" data-meganav-type="parent" aria-controls="MenuParent-7" aria-expanded="false" tabindex="-1" style="color: white;">
-                Social
-                <span class="icon icon-arrow-down" aria-hidden="true"></span>
-            </a>
-            <ul id="MenuParent-7" class="site-nav--dropdown" data-meganav-dropdown="">
-              
-                  <li>
-                    <a href="#" tabindex="-1" style="color: white;">
-                        About Us
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a href="#" tabindex="-1" style="color: white;">
-                        Reviews
-                    </a>
-                  </li>
-                </div>
-                </nav>
-
-    </footer>
-
     
-
+            
+            <li>
+              <a href="#" tabindex="-1" style="color: white;">
+                Bathing & Grooming
+              </a>
+            </li>
+            <li>
+              <a href="#" tabindex="-1" style="color: white;">
+                Nail Clipping
+              </a>
+            </li>
+            <li>
+              <a href="#" tabindex="-1" style="color: white;">
+                Short Term Bording
+              </a>
+            </li>
+      </div>
+      <li class="parent-nav-item site-nav--has-dropdown" id="shop-online" aria-haspopup="true">
+        <a href="/#" class="site-nav--link parent-nav-link" data-meganav-type="parent" aria-controls="MenuParent-1"
+          aria-expanded="false" style="color: white;">
+          Shop Online
+          <span class="icon icon-arrow-down" aria-hidden="true"></span>
+        </a>
+        <ul id="MenuParent-1" class="site-nav--dropdown" data-meganav-dropdown="">
+    
+    
+          <li>
+            <a href="/collections/cat" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
+              Cat
+            </a>
+          </li>
+    
+          <li>
+            <a href="/collections/dog" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
+              Dog
+            </a>
+          </li>
+    
+          <li>
+            <a href="/collections/fish" class="site-nav--link" data-meganav-type="child" tabindex="-1"
+              style="color: white;">
+              Fish
+            </a>
+          </li>
+    
+          <li>
+            <a href="/collections/reptile" class="site-nav--link" data-meganav-type="child" tabindex="-1"
+              style="color: white;">
+              Reptile
+            </a>
+          </li>
+    
+          <li>
+            <a href="/collections/small-animal" class="site-nav--link" data-meganav-type="child" tabindex="-1"
+              style="color: white;">
+              Small Animal
+            </a>
+          </li>
+    
+        </ul>
+      </li>
+    
+      <li class="parent-nav-item site-nav--has-dropdown" id="shop-online" aria-haspopup="true">
+        <a href="/#" class="site-nav--link parent-nav-link" data-meganav-type="parent" aria-controls="MenuParent-1"
+          aria-expanded="false" style="color: white;">
+          About Us
+          <span class="icon icon-arrow-down" aria-hidden="true"></span>
+        </a>
+        <ul id="MenuParent-1" class="site-nav--dropdown" data-meganav-dropdown="">
+    
+    
+          <li>
+            <a href="/collections/cat" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
+              Our Story
+            </a>
+          </li>
+    
+          <li>
+            <a href="/collections/dog" class="site-nav--link" data-meganav-type="child" tabindex="-1" style="color: white;">
+              Reviews
+            </a>
+          </li>
+    
+          
+    
+          
+    
+          
+    
+        </ul>
+      </li>
+    
+    <!---->
+      <li class="parent-nav-item site-nav--has-dropdown" id="social-links" aria-haspopup="true">
+        <a href="/pages/about-us" class="site-nav--link parent-nav-link" data-meganav-type="parent"
+          aria-controls="MenuParent-7" aria-expanded="false" tabindex="-1" style="color: white;">
+          Social
+          <span class="icon icon-arrow-down" aria-hidden="true"></span>
+        </a>
+        <ul id="MenuParent-7" class="site-nav--dropdown" data-meganav-dropdown="">
+    
+          <li>
+            <a href="#" tabindex="-1" style="color: white;">
+              spot for ig
+            </a>
+          </li>
+    
+          <li>
+            <a href="#" tabindex="-1" style="color: white;">
+              spot for fb
+            </a>
+          </li>
+          <li>
+            <a href="#" tabindex="-1" style="color: white;">
+              spot for twitter
+            </a>
+          </li>
+          <li>
+            <a href="#" tabindex="-1" style="color: white;">
+              spot for email
+            </a>
+          </li>
+          </div>
+          </nav>
+    
+    </footer>
 
     <!-- JavaScript Script Needed for Functionality-->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
