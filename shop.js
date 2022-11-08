@@ -1,7 +1,7 @@
 var shop = [
     {
       id: "iguana",
-      title: 'Iguana',
+      title: 'Green Iguana',
       image: 'https://whisperingpinespc.com/wp-content/uploads/2013/05/4392411714_374e0cb527_o-900-center-800x506.jpg',
       price: '189.99',
       description:"Iguanas are lizards identified by their stocky stature, the saggy skin on their throats and the spines that protrude from their heads, necks, backs and tails. Iguanas are popular pets and can live 15 to 20 years if cared for properly.",
@@ -37,7 +37,7 @@ var shop = [
       id: "kittens",
       title: 'Domestic Short Hair Kittens',
       image: 'https://static.meowbox.com/assets/HLJDGiIrTfhbABIekWePhhWsTJqlHQbl.jpg',
-      price: '17,500,000',
+      price: '7,500,000',
       description: "Don't ask. You cant afford them."
     },
 
@@ -91,7 +91,7 @@ var shop = [
 
         var price = '<p> $' + shop[i].price + '</p></span>'
 
-        var description = '<div class=""><p class="descriptionText">'+ shop[i].description + '</p><button type="button" class="btn btn-primary" > Add to cart</button></div></div>'
+        var description = '<div class=""><p class="descriptionText">'+ shop[i].description + '</p><p class="text-center" ><button class="learnMoreButton" type="button" class="btn" >Learn More</button><button class="cartButton" type="button" class="btn" >Add to cart</button></p></div></div>'
 
         
         var concatThis = heading + image + price + description;

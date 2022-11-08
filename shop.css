@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap);
 
-body{
-    
-}
+
 
 header{
     display: grid;
@@ -12,7 +10,7 @@ header{
     /* background-color: rgb(233, 236, 223); */
     background-image: linear-gradient(rgba(255, 255, 255, 0.848),rgba(255, 255, 255, 0.75)), url(https://images.photowall.com/products/49641/fresh-green-grass.jpg?h=699&q=85);
     background-size: stretch;
-    font-family: 'Mochiy Pop One', sans-serif;
+    ;
     
 }
 
@@ -80,6 +78,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     
+    
 }
 
 /* --------- ADDING CARDS TO THE P TAGS TO ADD BACKGROUND  ------*/
@@ -122,7 +121,21 @@ h4{
     /* font-weight: ; */
 }
 
+.cartButton{
+    border: 5px solid aqua;
+    color: white;
+    background-color: rgb(219, 49, 77);
+    margin-left: 3%;
+    
+}
 
+.learnMoreButton{
+    border: 5px solid aqua;
+    color: white;
+    background-color: rgb(219, 49, 77);
+    margin-right: 3%;
+    
+}
 
 
 /* ---------- FOOTER ------------ */
