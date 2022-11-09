@@ -38,7 +38,7 @@ var shop = [
       title: 'Short Hair Kittens',
       image: 'https://static.meowbox.com/assets/HLJDGiIrTfhbABIekWePhhWsTJqlHQbl.jpg',
       price: '17,500,000',
-      description: "Don't ask. You cant afford them."
+      description: "Don't ask. You can't afford them. <br/> I mean... look at them. <br/><br/>I am not selling these adorable creatures. "
     },
 
     {
@@ -87,7 +87,7 @@ var shop = [
       
         var heading = '<div class="product " class="container" class="row" class="col" ' + '"> <span  class="container" ><h4>' + shop[i].title + '</h4>'
 
-        var image = '<img class="imgShopBorder" src="' + shop[i].image + '"/'
+        var image = '<img class="imgShopBorder" src="' + shop[i].image + '"/ id="shop-card-img">'
 
         var price = '<p> $' + shop[i].price + '</p></span>'
 

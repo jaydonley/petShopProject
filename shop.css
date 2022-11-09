@@ -16,6 +16,7 @@ header{
 
 #headerImgLogo{
     max-height: 13rem;
+    
     border-radius: 50%;
     border: 5px solid rgb(219, 49, 77);
     margin-top: 1rem;
@@ -211,14 +212,11 @@ h4{
 /* ______________ CSS FOR JAVASCRIPT BELOW ________________ */
 
 
-img{
+#shop-card-img{
     width: 100%;
     
     height: auto;
-    
+
     /* max-height: 100%; */
 }
-
-
-
 
