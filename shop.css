@@ -15,11 +15,11 @@ header{
 }
 
 #headerImgLogo{
-    max-height: 12rem;
+    max-height: 13rem;
     border-radius: 50%;
     border: 5px solid rgb(219, 49, 77);
     margin-top: 1rem;
-    margin-left: 5rem;
+    margin-left: 10rem;
    
 }
 
@@ -122,18 +122,37 @@ h4{
 }
 
 .cartButton{
-    border: 5px solid aqua;
+    border: 5px solid white;
     color: white;
     background-color: rgb(219, 49, 77);
-    margin-left: 3%;
+    margin: 3%;
+    
+    
+}
+
+.cartButton:hover{
+    border: 5px solid rgb(219, 49, 77);
+    color: rgb(219, 49, 77);
+    background-color: white;
+    margin: 3%;
+    
     
 }
 
 .learnMoreButton{
-    border: 5px solid aqua;
+    border: 5px solid white;
     color: white;
     background-color: rgb(219, 49, 77);
-    margin-right: 3%;
+    margin: 3%;
+    
+}
+
+.learnMoreButton:hover{
+    border: 5px solid rgb(219, 49, 77);
+    color: rgb(219, 49, 77);
+    background-color: white;
+    margin: 3%;
+    
     
 }
 
@@ -181,13 +200,25 @@ h4{
     margin-right: auto;
 }
 
+.fa-brands{
+    font-size: 25px;
+}
+.fa-regular{
+    font-size: 25px;
+}
+
 
 /* ______________ CSS FOR JAVASCRIPT BELOW ________________ */
 
 
 img{
-    max-width: 250px;
-    max-height: 100%;
+    width: 100%;
+    
+    height: auto;
+    
+    /* max-height: 100%; */
 }
+
+
 
 
